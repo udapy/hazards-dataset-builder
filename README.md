@@ -11,6 +11,11 @@ A comprehensive toolset for building a hazard dataset for LLM fine-tuning and sa
 - **Hugging Face Export**: Seamlessly export your dataset to the Hugging Face `datasets` format.
 - **Automation**: Makefile included for easy setup, testing, and execution.
 
+## Dataset
+
+The generated dataset is available on Hugging Face:
+[Civilian Hazard Lifecycle Instruct](https://huggingface.co/datasets/Uday/civilian-hazard-lifecycle-instruct)
+
 ## Installation
 
 This project uses `pixi` for dependency management.
