@@ -1,0 +1,29 @@
+[workspace]
+authors = ["Uday Phalak <udayphlk@gmail.com>"]
+channels = ["conda-forge"]
+name = "hazards-dataset-builder"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.9,<3.14"
+requests = ">=2.32.5,<3"
+beautifulsoup4 = ">=4.14.2,<5"
+pypdf = ">=6.4.0,<7"
+sentence-transformers = ">=5.1.2,<6"
+pandas = ">=2.3.3,<3"
+datasets = ">=4.4.1,<5"
+trafilatura = ">=2.0.0,<3"
+lancedb = ">=0.21.1,<0.22"
+huggingface_hub = ">=0.36.0,<0.37"
+
+[pypi-dependencies]
+playwright = ">=1.56.0, <2"
+mineru = { version = ">=2.0.6, <3", extras = ["core"] }
+magic-pdf = ">=0.6.1,<0.7"
+paddlepaddle = ">=3.2.2, <4"
+paddleocr = ">=2.10.0, <3"
+llmsherpa = ">=0.1.4, <0.2"
+pymupdf4llm = ">=0.2.3, <0.3"
